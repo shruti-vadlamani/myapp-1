@@ -1,0 +1,74 @@
+<html>
+        <head>
+                <title>Student Registration</title>
+                <style>
+                	td {
+                		padding : 10px;
+                	}
+                </style>
+        </head>
+        <body>
+                <h1 align="center"> Student Registration form </h1>
+                <table border="1" align="center" style="border-spacing:20px; background-color:pink;">
+                <form>
+                	<tr>
+                		<td>Name</td>
+                		<td><input type="text" name="name" id="name"></td>
+                	</tr>
+                	<tr>
+                		<td>Contact Number</td>
+                		<td><input type="tel" name="contact" id="contact"></td>
+                	</tr>
+                	<tr>
+                		<td>Gender</td>
+                		<td><input type="radio" name="gender" value="male">Male <input type="radio" name="gender" value="female">Female </td>
+                	<tr>
+                		<td>Address</td>
+                		<td><textarea name="address" id="addr" rows="4"></textarea></td>
+                	</tr>
+                	<tr>
+                		<td>Hobbies</td>
+                		<td><input type="checkbox" name="hobby" value="singing">Singing
+                		    <input type="checkbox" name="hobby" value="travelling">Travelling
+                		    <input type="checkbox" name="hobby" value="reading">Reading Novels
+                		</td>
+                	</tr>
+                	<tr>
+                		<td>Skillset</td>
+                		<td><input type="checkbox" name="skill" value="C">C
+                		    <input type="checkbox" name="skill" value="python">Python
+                		    <input type="checkbox" name="skill" value="java">Java
+                		</td>
+                	</tr>
+                	<tr>
+                		<td>Highest Qualification</td>
+                		<td><select name="qualification" id="qualif">
+                			  <option value="none" selected disabled hidden>Select an Option</option>
+					  <option value="ssc">SSC</option>
+					  <option value="inter">Inter</option>
+					  <option value="diploma">Diploma</option>
+					  <option value="be">B.E/B.Tech</option>
+					  <option value="phd">PhD</option>
+					  <option value="mtech">MTech</option>
+				    </select>
+				</td>
+			</tr>
+			<tr>
+				<td>District</td>
+				<td><select name="district" id="district">
+					  <option value="none" selected disabled hidden>Select an Option</option>
+					  <option value="rr">Rangareddy</option>
+					  <option value="adilabad">Adilabad</option>
+					  <option value="hyd">Hyderabad</option>
+					  <option value="khammam">Khammam</option>
+				    </select>
+				</td>
+			</tr>
+			<tr>
+				<td><button type="submit">Register</button></td>
+				<td><input type="reset" value="Clear"></td>
+			</tr>
+		</form>
+                </table>
+         </body>
+</html>
